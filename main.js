@@ -1,0 +1,6 @@
+
+
+
+function printNameObject(objName){
+    
+}
