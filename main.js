@@ -2,15 +2,15 @@
 const objName = {name: "ahmed"};
 
 //new trick on js object
-function printNameObject1({name}){
+function printNameObject1({objName}){
     //log the Thing (: 
-    console.log(name);
+    console.log(objName);
 }
 // the old obj is
 function printNameObject2(nameObj){
     //log the Thing (: 
-    console.log(nameObj.name);
+    console.log(nameObj.objName);
 }
 
 //test the thing
-printNameObject2(objName);
+printNameObject1(objName) //this wont work => undefined;
