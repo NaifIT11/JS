@@ -14,3 +14,4 @@ function printNameObject2(nameObj){
 
 //test the thing
 printNameObject1(objName) //this wont work => undefined;
+console.log(Object.entries(objName)[0][1]);
