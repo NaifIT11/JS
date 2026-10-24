@@ -16,3 +16,5 @@ function printNameObject2(nameObj){
 printNameObject1(objName) //this wont work => undefined;
 //this log by console
 console.log(Object.entries(objName)[0][1]);
+//try to find new way log by the function
+printNameObject1(Object.entries(objName)[0][1]);
